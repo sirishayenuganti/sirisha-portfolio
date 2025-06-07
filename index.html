@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sirisha Yenuganti | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="vvit.png" alt="College Logo" class="college-logo" />
+      </div>
+      <div class="nav-links">
+        <button class="nav-btn active" data-section="home">Home</button>
+        <button class="nav-btn" data-section="about">About</button>
+        <button class="nav-btn" data-section="projects">Projects</button>
+        <button class="nav-btn" data-section="certificates">Certificates</button>
+        <button class="nav-btn" data-section="contact">Contact</button>
+        <button class="get-in-touch" data-section="contact">GetinTouch</button>
+      </div>
+    </nav>
+    <div id="home" class="section active">
+      <img src="sirisha.jpg" alt="Sirisha Yenuganti" class="profile-img" />
+      <h1>Hello, I’m <br><span class="name-highlight">Sirisha Yenuganti</span></h1>
+      <p>Computer Science AI&ML B.Tech Student & Passionate Programmer specializing in Python, Java, and Graph Theory. Currently pursuing my dreams at Vasireddy Venkatadri Institute of Technology.</p>
+      <div class="cta-buttons">
+        <button class="view-projects" data-section="projects">View My Projects</button>
+        <button class="learn-more" data-section="about">Learn More</button>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p class="intro-text">
+      A dedicated and passionate student with a strong foundation in programming and a keen interest in innovative technologies.
+    </p>
+    <div class="about-content">
+      <div class="about-column">
+        <h3>My Journey</h3>
+        <p>
+          I’m currently studying 2nd year of B.Tech at Vasireddy Venkatadri Institute of Technology, where I’m building a strong foundation in computer science and engineering. My passion lies in programming, problem-solving.
+        </p>
+        <h3>Education</h3>
+        <div class="education-item">
+          <p><strong>Vasireddy Venkatadri Institute of Technology</strong><br>B.Tech (2nd Year) - Currently Pursuing</p>
+        </div>
+        <div class="education-item">
+          <p><strong>Srichaitanya Junior College</strong><br>Intermediate - Completed</p>
+        </div>
+        <div class="education-item">
+          <p><strong>Sujatha High School, Guntur</strong><br>High School - Completed</p>
+        </div>
+      </div>
+      <div class="about-column">
+        <h3>Skills & Technologies</h3>
+        <ul class="skills-grid">
+          <li>Python</li>
+          <li>Java</li>
+          <li>C Programming</li>
+          <li>DSA</li>
+          <li>Linux OS</li>
+        </ul>
+        <h3>Experience</h3>
+        <div class="experience-item">
+          <p><strong>C-DAC Pune</strong><br>Intern<br>Gained valuable industry experience in technology and development</p>
+        </div>
+        <div class="experience-item">
+          <p><strong>MAD Organization (Guntur Chapter)</strong><br>Volunteer<br>Contributing to community initiatives and social impact projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <p class="intro-text">
+      Showcasing my passion for programming through innovative projects in graph theory, systems programming, and machine learning.
+    </p>
+    <div class="projects-list">
+      <div class="project-item">
+        <span>MPPLAB – Graph Representation of BSNL Telecom Traffic</span>
+        <a href="https://github.com/sirishayenuganti/MPPLAB_BSNL_Network" class="btn" target="_blank">
+          <img src="github.png" class="github-icon" /> View Code
+        </a>
+      </div>
+      <div class="project-item">
+        <span>Local DNS Caching Resolver</span>
+        <a href="https://github.com/sirishayenuganti/LOCAL_DNS_CACHING-RESOLVER" class="btn" target="_blank">
+          <img src="github.png" class="github-icon" /> View Code
+        </a>
+      </div>
+      <div class="project-item">
+        <span>Sentiment Analysis using Machine Learning</span>
+        <a href="https://github.com/sirishayenuganti/Sentiment_Analysis" class="btn" target="_blank">
+          <img src="github.png" class="github-icon" /> View Code
+        </a>
+      </div>
+    </div>
+    <p class="projects-footer">
+      More exciting projects coming soon! Follow my journey on GitHub to stay updated.
+    </p>
+    <div class="projects-cta">
+      <a href="https://github.com/sirishayenuganti" class="view-all-btn" target="_blank">
+        <img src="github.png" alt="GitHub" class="github-icon" /> View All Projects on GitHub
+      </a>
+    </div>
+  </section>
+
+  <section id="certificates" class="section">
+    <h2>My Certificates</h2>
+    <p class="intro-text">
+      Professional certifications and achievements that showcase my continuous learning journey.
+    </p>
+    <div class="certificates-list">
+      <div class="certificate-item">
+        <button class="certificate-btn" data-certificate="c-programming">JAVA Programming By Codetranta</button>
+        <div class="certificate-image" id="c-programming" style="display: none;">
+          <img src="java.png" alt="JAVA Programming Fundamentals Certificate" class="certificate-img" />
+        </div>
+      <div class="certificate-item">
+        <button class="certificate-btn" data-certificate="python-development">Python Programming by GUVI</button>
+        <div class="certificate-image" id="python-development" style="display: none;">
+<img src="python.png" alt="Python Programming Fundamentals Certificate" class="certificate-img" />
+      </div>
+<div class="certificate-item">
+        <button class="certificate-btn" data-certificate="ai">GUVI-SAWAIT.AI Learnathon</button>
+        <div class="certificate-image" id="ai" style="display: none;">
+          <img src="AIguvi.png" class="certificate-img" />
+        </div>
+<div class="certificate-item">
+        <button class="certificate-btn" data-certificate="iucee">IUCEE-Overview of Emerging Technologies</button>
+        <div class="certificate-image" id="iucee" style="display: none;">
+          <img src="iucee.png" class="certificate-img" />
+        </div>
+<div class="certificate-item">
+        <button class="certificate-btn" data-certificate="google">Generative AI By Google Cloud</button>
+        <div class="certificate-image" id="google" style="display: none;">
+          <img src="l4g.png" class="certificate-img" />
+        </div>
+    </div>
+<p style="color:green;text-align:center">To View Certificate Tap on the Name</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Get in Touch</h2>
+    <p class="intro-text">
+      Let’s connect and explore Our Knowledge Together to Build more projects!
+    </p>
+    <div class="contact-content">
+      <div class="contact-column">
+        <h3>Let's Connect</h3>
+        <div class="contact-info">
+          <p>
+            I’m always excited to discuss new projects, innovative ideas, or potential opportunities, i am ready to wrok with you,feel free to ask and connect to Me!
+          </p>
+          <div class="contact-item">
+            <img src="gmail.png" alt="Email" class="contact-icon" />
+            <a href="mailto:sirishachowdary41@gmail.com">sirishachowdary41@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <img src="phone.png" alt="Phone" class="contact-icon" />
+            <span>+91 9392612226</span>
+          </div>
+          <div class="contact-item">
+            <img src="linkedin.png" alt="LinkedIn" class="contact-icon" />
+            <a href="https://www.linkedin.com/in/sirisha-yenuganti-27491a2a6" target="_blank">linkedin.com/in/sirisha-yenuganti</a>
+          </div>
+          <div class="contact-item">
+            <img src="github.png" alt="GitHub" class="contact-icon" />
+            <a href="https://github.com/sirishayenuganti" target="_blank">github.com/sirishayenuganti</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-column">
+        <h3>Send a Message</h3>
+        <form action="https://formspree.io/f/xvgrzvnv" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Sirisha Yenuganti. Built with passion and dedication to excellence.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
